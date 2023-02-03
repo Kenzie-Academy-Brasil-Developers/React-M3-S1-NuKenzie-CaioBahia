@@ -10,14 +10,15 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 15px;
-    gap: 15px;
+    gap: 25px;
     height: 100%;
+    width: 100%;
 }
 .main_Container{
     display: flex;
     gap: 28px;
     flex-direction: column;
+    margin-left: 15px;
 }
 .logo img{
     height: 25px;
@@ -36,9 +37,12 @@ font-size: 16px;
 line-height: 26px;
 color: #FFFFFF;
 }
-
+.main_Container fieldset {
+    display: flex;
+    justify-content: center;
+}
 .goto_dash{
-    width: 360px;
+    width: 90%;
     height: 48px;
     border: 2px solid #FD377E;
     border-radius: 8px;
@@ -49,11 +53,39 @@ color: #FFFFFF;
     line-height: 19px;
     color: #FFFFFF;
 }
+.imgLP{
+    display: flex;
+    justify-content: center;
+
+}
 .imgLP img{
-    width: 348px;
-    height: 348px;
+  width: 60%;
 }
 
 @media (min-width:768px){
-   
+    main{
+        justify-content: center;
+    }
+    .main_subistitute{
+        flex-direction: row;
+        align-items: center;
+    }
+    .main_Container{
+        width: 30%;
+    }
+    .goto_dash{
+        width: 90%;
+        
+    }
+    .main_Container fieldset{
+        justify-content: flex-start;
+    }
+    .imgLP{
+        height: 360px;
+        width: 25%;
+        align-items: center;
+    }
+    .imgLP img{
+        width: 100%
+    }
 }

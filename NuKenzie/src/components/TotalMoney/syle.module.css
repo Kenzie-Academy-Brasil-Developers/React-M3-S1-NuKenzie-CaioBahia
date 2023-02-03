@@ -1,3 +1,14 @@
 @import "../../styles/index.css";
 
 
+.a_aside{
+    display: flex;
+    flex-direction: column;
+    gap: 10 px;
+}
+.totalmoney{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FD377E;
+}

@@ -4,6 +4,7 @@ import trash from "../../assets/trash/trash.png"
 
 export const NukenzieCard = ({list, removeFromList}) => {
   
+  
   return (    
     <>
     {list.category === "entrada"? (    

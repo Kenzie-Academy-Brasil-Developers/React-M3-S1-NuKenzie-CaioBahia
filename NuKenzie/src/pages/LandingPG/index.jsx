@@ -14,7 +14,9 @@ export const LandingPG = ({setCurrentPage}) => {
         </div>
         <h1>Centralize o controle das suas finanças</h1>
         <p>de forma rápida e segura</p>
+        <fieldset>
         <button className={styles.goto_dash} onClick={() => setCurrentPage("dashboard")}>Começar</button>
+        </fieldset>
       </div>
       <div className={styles.imgLP}>
         <img src={ImgLP} alt="Landing page image" />

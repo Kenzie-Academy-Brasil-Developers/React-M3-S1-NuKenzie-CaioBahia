@@ -18,8 +18,12 @@ export const Dashboard = ({setCurrentPage}) => {
   })
 
   const addToList = (list) => {
+    if(list.category === "despesa"){
+      list.quant=-list.quant
+    }
     const newList = {...list, id:uuidv4()};
     setkenzielist([...kenzielist, newList]);
+    console.log(list)
   }
 
   const removeFromList = (listID) => {
@@ -43,7 +47,7 @@ export const Dashboard = ({setCurrentPage}) => {
       </section>
 
         {/* TotalMoney */}
-      <section>
+      <section className = {styles.totalmoney__container}>
         <TotalMoney kenzielist={kenzielist}/>
       </section>
 

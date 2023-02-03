@@ -109,6 +109,22 @@
 
 }
 
+.totalmoney__container{
+    background: #FFFFFF;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+    margin-top: 24px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 18px;
+
+}
+
+
+
 @media (min-width:768px){
     .htmldiv{
         display: flex;
@@ -116,11 +132,11 @@
         align-items: center;
     }
     main{
-        width: 982px;
+    
         display: flex;
         justify-content: center;
         gap: 60px;
-        margin-top: 10px;
+        
     }
     .list_container h2{
         margin-top: 0;

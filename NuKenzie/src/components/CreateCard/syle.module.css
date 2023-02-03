@@ -75,11 +75,12 @@
     gap: 27px;
     padding-top: 12px;
     padding-right: 30px;
-
+ 
 }
 .div_botton > button {
     width: 25px;
     height: 25px;
+    border: none;
 }
 }
 
