@@ -1,0 +1,134 @@
+@import "../../styles/index.css";
+
+/* main{
+    
+} */
+.header_container{
+    width: 100%;
+    height: 69px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background: var(--grey-1);
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+    margin-bottom: 1.5rem;
+}
+
+.header_container > button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 64px;
+    height: 40px;
+
+    border: 1.4px solid #E9ECEF;
+    border-radius: 8px;
+    flex-grow: 0;
+
+    font-weight: 600;
+    font-size: 14px;
+    color: #343A40;
+
+}
+
+.main_container{
+    margin: 0px 12px;
+}
+
+.form_container{
+    background: #FFFFFF;
+    /* grey-2 */
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+    padding: 24.5px;
+}
+.form_container > form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.list_container h2{
+    font-weight: 700;
+    font-size: 16px;
+    color: #212529;
+    margin-top: 24px;
+    
+}
+
+.filter_buttons_container{
+    gap: 16px;
+    width: 100%;
+    display: flex;
+    margin: 16px 0px;
+}
+.filter_buttons_container button{
+    height: 40px;
+}
+.all_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+    width: 69px;
+    height: 40px;
+    background: #FD377E;
+    border: 1.4px solid #FD377E;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.filter_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+    width: 87px;
+    height: 40px;
+    background: #E9ECEF;
+    border: 1.4px solid #E9ECEF;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-weight: 500;
+    font-size: 14px;
+    color: #343A40;
+
+}
+
+@media (min-width:768px){
+    .htmldiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main{
+        width: 982px;
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        margin-top: 10px;
+    }
+    .list_container h2{
+        margin-top: 0;
+    }
+    .main_container{
+        margin-top: 10px;
+    }
+    .utile_container{
+        max-width: 363px;
+    }
+}

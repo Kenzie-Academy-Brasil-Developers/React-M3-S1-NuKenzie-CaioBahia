@@ -1,0 +1,59 @@
+@import "../../styles/index.css";
+
+
+main{
+    height: 100vh; 
+}
+
+.main_subistitute{
+    background-color: #212529;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    gap: 15px;
+    height: 100%;
+}
+.main_Container{
+    display: flex;
+    gap: 28px;
+    flex-direction: column;
+}
+.logo img{
+    height: 25px;
+
+
+}
+.main_Container > h1{
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 48px;
+    color: #ffffff;
+}
+.main_Container > p {
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+}
+
+.goto_dash{
+    width: 360px;
+    height: 48px;
+    border: 2px solid #FD377E;
+    border-radius: 8px;
+    background: #FD377E;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.imgLP img{
+    width: 348px;
+    height: 348px;
+}
+
+@media (min-width:768px){
+   
+}
